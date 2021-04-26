@@ -13,20 +13,16 @@ top: 25%;
 left: 50%;
 margin-top: 90px;
 margin-left: -210px;
-
+border-radius: 20px
 }
 
 .searchbar input {
     height:30px;
     width: 400px;
     border-radius: 20px;
+
 }
 
-.searchbar input:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
-}
-
-/*
 .searchbar:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
