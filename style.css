@@ -11,7 +11,7 @@ ul {
     list-style-type: none;
 }
 li {
-    display: inline;
+    display: inline-block;
 }
 section {
     background-color: rgb(154, 255, 255);
@@ -40,4 +40,15 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+.top-right-o {
+    float: right;
+    padding-left: 15px;
+    font-size: 13px;
+    transform: translate(0px, -3px);
+}
+.dot:hover {
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+    cursor: pointer;
 }
