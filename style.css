@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin: 15px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+section {
+    background-color: rgb(154, 255, 255);
+    
+}
+footer {
+    background-color: rgb(210, 255, 131);
+}
+div {
+    background-color: red;
+    border: 1px solid black;
+}
+.top-left {
+    padding-right: 15px;
+    font-size: 14px;
+}
+.top-right {
+    float: right;
+    padding-left: 15px;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
